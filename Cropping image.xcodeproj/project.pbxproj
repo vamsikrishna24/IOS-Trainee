@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9ACF01FB1A03A725001E0668 /* 199vu342jcfpwjpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF01FA1A03A725001E0668 /* 199vu342jcfpwjpg.jpg */; };
 		9AD51C781A03543700D57D38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD51C771A03543700D57D38 /* main.m */; };
 		9AD51C7B1A03543700D57D38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD51C7A1A03543700D57D38 /* AppDelegate.m */; };
 		9AD51C7E1A03543700D57D38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD51C7D1A03543700D57D38 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9ACF01FA1A03A725001E0668 /* 199vu342jcfpwjpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 199vu342jcfpwjpg.jpg; sourceTree = "<group>"; };
 		9AD51C721A03543700D57D38 /* Cropping image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cropping image.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD51C761A03543700D57D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AD51C771A03543700D57D38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		9AD51C751A03543700D57D38 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9ACF01FA1A03A725001E0668 /* 199vu342jcfpwjpg.jpg */,
 				9AD51C761A03543700D57D38 /* Info.plist */,
 				9AD51C771A03543700D57D38 /* main.m */,
 			);
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ACF01FB1A03A725001E0668 /* 199vu342jcfpwjpg.jpg in Resources */,
 				9AD51C811A03543700D57D38 /* Main.storyboard in Resources */,
 				9AD51C861A03543700D57D38 /* LaunchScreen.xib in Resources */,
 				9AD51C831A03543700D57D38 /* Images.xcassets in Resources */,
@@ -412,6 +416,7 @@
 				9AD51C971A03543700D57D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AD51C981A03543700D57D38 /* Build configuration list for PBXNativeTarget "Cropping imageTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				9AD51C9A1A03543700D57D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

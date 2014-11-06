@@ -16,12 +16,36 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
+    
+    UIImage *image = [UIImage imageNamed:@"199vu342jcfpwjpg.jpg"];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    
+    CGSize size = [image size];
+    
+    
+    [imageView setFrame:CGRectMake(0, 0, 500,300)];
+    [[self view] addSubview:imageView];
+   
+ 
+    
+   
+    CGRect rect = CGRectMake(size.width/4, size.height/4,
+                             (size.width ), (size.height ));
+    
+    
+    CGImageRef imageRef = CGImageCreateWithImageInRect([image CGImage], rect);
+    UIImage *img = [UIImage imageWithCGImage:imageRef];
+    CGImageRelease(imageRef);
+    
+        imageView = [[UIImageView alloc] initWithImage:img];
+    [imageView setFrame:CGRectMake(0, 220, (size.width / 4), (size.height / 4))];
+    [[self view] addSubview:imageView];
+   
+    }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end
